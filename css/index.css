@@ -90,14 +90,16 @@
      position: center;
      width: 100%;
      height: 100%;
+     opacity: 30%;
 
 }
 
 .header-text{
     position: absolute;
-    background-color: aqua;
+    background-color: #ffffff;
     width: 45%;
     left: 10%;
+    
     
 }
 
@@ -107,6 +109,7 @@
     height: 500px;
     right: 15%;
     top: 25%;
+    
 }
 
 /* ---------------------- INTERVENCOES ------------------------ */
