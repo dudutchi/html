@@ -56,6 +56,7 @@
     padding: 10px 20px;
     border-radius: 20px;
     margin-right: 20px;
+    
 }
 
 .btn-agendar button {
@@ -72,14 +73,14 @@
     background-color: #e53e2d;
 }
 
-/* ---------------------- HEADER ------------------------ */
+/* ---------------------- inicio ------------------------ */
 
-.header{
+.inicio{
     display: flex;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #000;
-    filter: grayscale(100%);
+    
     height: 700px;
     
 }
@@ -91,10 +92,11 @@
      width: 100%;
      height: 100%;
      opacity: 30%;
+     filter: grayscale(100%);
 
 }
 
-.header-text{
+.inicio-text{
     position: absolute;
     background-color: #ffffff;
     width: 45%;
@@ -103,14 +105,21 @@
     
 }
 
-.header-image{
+.inicio-image{
     position: absolute;
     width: 400px;
     height: 500px;
     right: 15%;
-    top: 25%;
+    top: 15%;
     
 }
+
+.btn-agendar a{
+   text-decoration: none;
+   color: #000;
+}
+
+
 
 /* ---------------------- INTERVENCOES ------------------------ */
 
