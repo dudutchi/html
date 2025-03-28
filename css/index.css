@@ -119,6 +119,27 @@
    color: #000;
 }
 
+.text-perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+
+    width: 80%;
+    max-width: 600px; /* Limita a largura máxima para melhor leitura */
+    margin: 40px auto; /* Centraliza na tela */
+    padding: 20px;
+
+    background-color: #f9f9f9; /* Fundo suave */
+    color: #333; /* Tom de preto mais suave para leitura */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
 
 
 /* ---------------------- INTERVENCOES ------------------------ */
@@ -131,3 +152,13 @@
     padding: 200px;
     gap: 50px;
 }
+
+
+    
+
+
+
+
+
+
+
