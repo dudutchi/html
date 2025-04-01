@@ -76,13 +76,17 @@
 /* ---------------------- inicio ------------------------ */
 
 .inicio{
+    background-origin: border-box;
+    background-position: 100% 25%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
+    gap: 400px;
     border-bottom: 1px solid #000;
-    
+    background-image: url("../imagens/group-2351896_1280.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 700px;
-    
 }
 
 .img-background{
@@ -97,20 +101,27 @@
 }
 
 .inicio-text{
-    position: absolute;
-    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    /* background-color: #ffffff65; */
     width: 45%;
-    left: 10%;
-    
+    height: 100%;
+    /* left: 10%; */
     
 }
 
+.inicio-text div{
+    background-color: #ffffff65;
+}
+
 .inicio-image{
-    position: absolute;
+    /* position: absolute; */
     width: 400px;
     height: 500px;
-    right: 15%;
-    top: 15%;
+    /* right: 15%;
+    top: 21%; */
     
 }
 
@@ -158,9 +169,108 @@
     display: flex;
     justify-content: center;
 }
-    
+   
+/*@media (max-width: 400px) {
+    .inicio-image {
+      width: 200px;
+    }
+  } 
 
+  /* CSS Responsivo para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    /* Navbar */
+    .nav-container {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
 
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .nav-menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-menu ul li {
+        margin-left: 0;
+    }
+
+    .nav-menu ul li a {
+        font-size: 20px;
+    }
+
+    .btn-agendar {
+        margin: 10px auto;
+        padding: 8px 15px;
+    }
+
+    /* Seção Início */
+    .inicio {
+        /* margin-top: 100px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* padding: 20px; */
+    }
+
+    /* .img-background {
+        width: 100%;
+        height: auto;
+    }  */
+
+    .inicio-text {
+        /* width: 90%; */
+        background-color: red;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .inicio-image {
+        /* width: 80%; */
+        height: auto;
+        
+        /* margin-top: 20px; */
+    }
+
+    /* Seção Intervenções */
+    .intervencoes {
+        flex-direction: column;
+        padding: 40px 15px;
+        gap: 25px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .intervencoes img{
+        width: 80%;
+    }
+
+    /* Seção Sobre Mim */
+    #sobre-mim img {
+        width: 90%;
+    }
+
+    /* Perguntas Frequentes */
+    .text-perguntas {
+        width: 90%;
+        padding: 15px;
+
+        
+    }
+    .Perguntas-frequentes{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
 
 
 
