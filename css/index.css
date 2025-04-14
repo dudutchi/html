@@ -10,7 +10,7 @@
 
 /* Container principal da navbar */
 .nav-container {
-    background-color: #060affb9;
+    background-color: #9b06ff4f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,6 +111,7 @@
     height: 100%;
     
     
+    
 }
 
 .inicio-text div{
@@ -172,15 +173,7 @@
     justify-content: center;
 }
 
-#livro {
-    display: flex;
-    justify-content: center; /* centraliza horizontalmente */
-    align-items: center;     /* centraliza verticalmente */
-    
-    height: 100vh;           /* altura total da tela */
-    width: 100%;
-    margin: 0;               /* zera as margens para não interferir */
-}
+
 #livro {
     display: flex;
     justify-content: center; 
@@ -191,15 +184,16 @@
     margin-bottom: 10%;             
 }
 
+
    
 
 
   /* CSS Responsivo para dispositivos móveis */
-  @media screen and (max-width: 768px) {
+  /*@media screen and (max-width: 768px) 
     /* Navbar */
-    .nav-container {
+    /*.nav-container { 
         flex-direction: column;
-        height: 240px;
+        height: 70px;
         text-align: center;
     }
 
@@ -228,77 +222,150 @@
     }
 
     /* Seção Início */
-    .inicio {
+    /*.inicio {
         display: flex;
         flex-direction: column-reverse; /* Mantém a imagem abaixo do texto */
-        align-items: center;
-        justify-content: center;
-    }
 
-    figure {
+    /*
+
+   /* figure {
         margin-top: 82%; /* Remove o -90% e coloca um espaçamento adequado */
-        text-align: left;
-        width: 100%;
-        margin-bottom:-185%;
-    }
+       
+    /*
 
-    .inicio-text {
+    /*.inicio-text {
         display: flex;
         background-color: rgba(253, 253, 253, 0.459);
         text-align: center;
         padding: 15px;
-        width: 43%;
+        width: 13%;
         margin-left:60%;
 
         border-radius:10px;
-    }
+    }/*
     
 
-    .inicio-image {
+   /* .inicio-image {
         width: 60%;
         max-width: 100%; /* Garante que a imagem não ultrapasse a tela */
-        height: auto;
-    }
+        
+    /*
 
     /* Seção Intervenções */
-    .intervencoes {
+    /*.intervencoes {
         flex-direction: column;
         padding: 40px 15px;
         gap: 25px;
         width: 100%;
         box-sizing: border-box;
         margin-top: 0;
-    }
+    }/*
 
-    .intervencoes img {
+   /* .intervencoes img {
         width: 100%;
-    }
+    }/*
 
     /* Seção Sobre Mim */
-    #sobre-mim img {
+   /* #sobre-mim img {
         width: 110%;
         
-    }
+        
+    }/*
 
     /* Perguntas Frequentes */
-    .text-perguntas {
-        width: 90%;
+    /*.text-perguntas {
+        width: 70%;
         padding: 15px;
-    }
+    }/*
 
-    .Perguntas-frequentes {
+    /*.Perguntas-frequentes {
         display: flex;
         justify-content: center;
         align-items: center;
+    }/*
+
+
+    /*#livro{
+    width: 100%;
+         
+        
+        
+    }/*
+
+    /* ----------- Estilos para dispositivos móveis ----------- */
+@media (max-width: 768px) {
+
+    /* Navbar */
+    .nav-container {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 0;
     }
-}
-
-    #livro{
-        flex-direction: column;
-        
-        
-        
+  
+    .logo {
+      width: 70px;
+      height: 70px;
+      margin: 5px;
     }
-
-
-
+  
+    .nav-menu ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .nav-menu ul li a {
+      font-size: 20px;
+    }
+  
+    .btn-agendar {
+      margin: 10px 0;
+    }
+  
+    .btn-agendar button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    /* Sessão Início */
+    .inicio {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      height: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+  
+    .inicio-text {
+      width: 90%;
+      height: auto;
+    }
+  
+    .inicio-image {
+      width: 80%;
+      height: auto;
+    }
+  
+    /* Texto de perguntas */
+    .text-perguntas {
+      width: 90%;
+      gap: 30px;
+      padding: 15px;
+    }
+  
+    /* Sessão Intervenções */
+    .intervencoes {
+      flex-direction: column;
+      padding: 50px 20px;
+      gap: 30px;
+    }
+  
+    #livro {
+      flex-direction: column;
+      margin-top: 20%;
+      margin-bottom: 20%;
+      
+    }
+  
+  }
+  
