@@ -1,0 +1,6 @@
+ssh-keygen -t rsa -b 4096 -C "email@gmail.com"
+cat ~/.ssh/id_rsa.pub
+
+
+git config --global user.name "nome sobrenome"
+git config --global user.email "email@gmail.com"
