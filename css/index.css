@@ -64,7 +64,7 @@
 }
 .btn-agendar a{
     text-decoration: none;
-    color: #c526ff;
+    color: #000000;
  }
 
 /* ---------------------- inicio ------------------------ */
@@ -154,8 +154,29 @@
     width: 100%;
     margin-top: 10%;
     margin-bottom: 10%; 
-                
+    gap: 50px;
+
+    
 }
+#livro a{
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    color: darkblue;
+   
+}
+#livro img{
+    border-radius: 30px;
+}
+.sinopse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
 
 
    
