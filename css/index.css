@@ -192,116 +192,75 @@
 
     
 }
-
-
-
-
-   
-
-
-  /* CSS Responsivo para dispositivos móveis */
-  /*@media screen and (max-width: 768px) 
-    /* Navbar */
-    /*.nav-container { 
-        flex-direction: column;
-        height: 70px;
-        text-align: center;
-    }
-
-    .logo {
-        width: 70px;
-        height: 70px;
-    }
-
-    .nav-menu ul {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .nav-menu ul li {
-        margin-left: 0;
-    }
-
-    .nav-menu ul li a {
-        font-size: 20px;
-    }
-
-    .btn-agendar {
-        margin: 10px auto;
-        padding: 8px 15px;
-    }
-
-    /* Seção Início */
-    /*.inicio {
-        display: flex;
-        flex-direction: column-reverse; /* Mantém a imagem abaixo do texto */
-
-    /*
-
-   /* figure {
-        margin-top: 82%; /* Remove o -90% e coloca um espaçamento adequado */
-       
-    /*
-
-    /*.inicio-text {
-        display: flex;
-        background-color: rgba(253, 253, 253, 0.459);
-        text-align: center;
-        padding: 15px;
-        width: 13%;
-        margin-left:60%;
-
-        border-radius:10px;
-    }/*
-    
-
-   /* .inicio-image {
-        width: 60%;
-        max-width: 100%; /* Garante que a imagem não ultrapasse a tela */
-        
-    /*
-
-    /* Seção Intervenções */
-    /*.intervencoes {
-        flex-direction: column;
-        padding: 40px 15px;
-        gap: 25px;
-        width: 100%;
-        box-sizing: border-box;
-        margin-top: 0;
-    }/*
-
-   /* .intervencoes img {
-        width: 100%;
-    }/*
-
-    /* Seção Sobre Mim */
-   /* #sobre-mim img {
-        width: 110%;
-        
-        
-    }/*
-
-    /* Perguntas Frequentes */
-    /*.text-perguntas {
-        width: 70%;
-        padding: 15px;
-    }/*
-
-    /*.Perguntas-frequentes {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }/*
-
-
-    /*#livro{
-    width: 100%;
-         
-        
-        
-    }/*
-
-    /* ----------- Estilos para dispositivos móveis ----------- */
  
+  /* @media screen and (max-width: 768px){ 
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    .inicio-image{
+        width: 400px;
+        height: 500px;
+    } 
+    .intervencoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 60%;
+    }
+    #sobre-mim{
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 900px;
+        
+    }
+} */
+ /* ---------------------- RESPONSIVIDADE ------------------------ */
+
+@media (max-width: 1024px) {
+    .inicio {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .inicio-text, .inicio-image {
+        width: 90%;
+        height: auto;
+    }
+
+    .intervencoes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 100px 20px;
+        gap: 30px;
+    }
+    #sobre-mim{
+        width: 80%;
+        height: auto;
+    }
+
+    #livro {
+        flex-direction: column;
+        height: auto;
+        margin: 50px 0;
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sinopse {
+        width: 80%;
+        padding: 10px;
+    }
+}
+
