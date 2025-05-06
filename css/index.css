@@ -135,8 +135,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: 200px;
-    gap: 50px;
+    padding: 70px;
+    
 }
 
 #sobre-mim{
@@ -188,93 +188,83 @@
     padding: 20px;
     border: 1px black solid;
     border-radius: 10%;
+}
+
+
     
 
     
-}
- 
-  /* @media screen and (max-width: 768px){ 
-    *{
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-    .inicio-image{
-        width: 400px;
-        height: 500px;
-    } 
-    .intervencoes{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 60%;
-    }
-    #sobre-mim{
-        width: auto;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 900px;
-        
-    }
-} */
+
  /* ---------------------- RESPONSIVIDADE ------------------------ */
 
 @media (max-width: 1024px) {
-    .inicio {
-        flex-direction: column;
-        gap: 20px;
-        height: auto;
-        padding: 40px 20px;
+    /* .inicio {
+        width: 230%;
+        
     }
 
-    .inicio-text, .inicio-image {
-        width: 90%;
-        height: auto;
-    }
+    .inicio-text {
+        width: 100%;
+        font-size: xx-large;
+        
+    } */
+
+
+
 
     .intervencoes {
-        width: 100%;
+        width: 200%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         padding: 100px 20px;
-        gap: 30px;
+        
     }
+
+    img.intervencoes {
+        width:130%;
+        margin: -10%;
+    }
+    .intervencoes a{
+        font-size: xx-large;
+    }
+ 
+
     #sobre-mim{
-        width: 80%;
+        width: 200%;
         height: auto;
+        margin: 14%;
     }
 
     #livro {
         flex-direction: column;
         height: auto;
         margin: 50px 0;
-        width: 160%;
+        width: 200%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
     #livro p {
-        font-size: 20px;
+        font-size: 30px;
         text-align: justify;
     }
 
 
     #livro a {
-        font-size: 20px;
+        font-size: 30px;
     }
     .sinopse {
         width: 80%;
         padding: 10px;
+        
     }
     
     .text-perguntas {
-        width: 100%;
-        font-size: x-large;
-        margin: 25%;
+        width: 110%;
+        font-size: xx-large;
+        margin: 45%;
     }
 }
 
