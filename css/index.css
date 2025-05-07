@@ -198,8 +198,10 @@
  /* ---------------------- RESPONSIVIDADE ------------------------ */
 
 @media (max-width: 1024px) {
-    /* .inicio {
+    .inicio {
         width: 230%;
+        height: 300%;
+        
         
     }
 
@@ -207,7 +209,9 @@
         width: 100%;
         font-size: xx-large;
         
-    } */
+    }
+
+
 
 
 
