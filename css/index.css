@@ -50,6 +50,10 @@
     padding: 0;
 }
 
+.nav-menu ul #item-mobile{
+    display: none;
+}
+
 .nav-menu ul li {
     display: inline-block;
     margin-left: 20px;
@@ -246,6 +250,14 @@
         margin: 15px 0;
     }
 
+    .nav-menu ul #item-mobile{
+        display: block;
+    }
+
+    .nav-menu ul #item-desktop{
+        display: none;
+    }
+
     .nav-menu.active {
         display: block;
     }
@@ -270,8 +282,9 @@
         font-size: x-large;
     }
 
-    .inicio {
-      display: none;
+    .inicio{
+        display: none;
+        
     }
 
     .inicio-mobile{
