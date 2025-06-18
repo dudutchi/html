@@ -113,6 +113,7 @@
     width: 45%;
     height: 100%;
     text-align: justify;
+    margin-left: 20%;
 }
 
 .inicio-image{
@@ -155,6 +156,7 @@
     justify-content: center;
     flex-direction: row;
     padding: 70px;
+    margin-left: 15%;
     
 }
 
@@ -179,7 +181,7 @@
 }
 #livro a{
     text-decoration: none;
-    border: 1px solid gray;
+    border: 1px solid #000000;
     padding: 20px;
     border-radius: 10px;
     color: darkblue;
@@ -208,6 +210,7 @@
     padding: 20px;
     border: 1px black solid;
     border-radius: 10%;
+    margin-left: 60%;
 }
 
 .hamburger {
@@ -337,6 +340,11 @@
     }
     .intervencoes a{
         font-size: xx-large;
+    }
+
+    .informacoes {
+        font-size: x-large;
+        margin-left: 60%;
     }
  
 
