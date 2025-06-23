@@ -8,20 +8,17 @@
     border: 0;
 }
 
-/* Container principal da navbar */
 .nav-container {
     background-color: #9b06ff4f;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 10%;
     position: fixed;
     z-index: 999;
 }
 
-
-/* Logo */
 .logo {
     background-color: #fff;
     width: 90px;
@@ -33,10 +30,9 @@
     margin: 5px;
 }
 
-/* Menu de navegação */
 .nav-menu {
     display: flex;
-    flex-grow: 1; /* Permite que o menu ocupe o espaço restante */
+    flex-grow: 1;
     text-align: center;
     flex-direction: row;
     justify-content: center;
@@ -44,86 +40,80 @@
 }
 
 .nav-menu ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4%; /* ou use margin nos <li> como já está */
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.nav-menu ul #item-mobile{
+.nav-menu ul #item-mobile {
     display: none;
 }
 
 .nav-menu ul li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 1%; 
 }
 
 .nav-menu ul li a {
     text-decoration: none;
     color: white;
-    font-size: 27px;
+    font-size: 3vh;
     font-weight: bold;
+     white-space: nowrap;
 }
 
-/* Botão Agendar */
 .btn-agendar {
     background-color: white;
-    padding: 10px 20px;
+    padding: 0.7% 1.4%;
     border-radius: 100px;
-    margin-right: 40px;
+    margin-right: 2%;
     cursor: pointer;
     position: absolute;
     right: 0;
-    margin-right: 2%;
-    
-    
 }
-.btn-agendar a{
+
+.btn-agendar a {
     text-decoration: none;
     color: #000000;
- }
+}
 
-/* ---------------------- inicio ------------------------ */
-
-.inicio{
+.inicio {
     background-origin: border-box;
     background-position: 100% 25%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    gap: 400px;
-    border-bottom: 1px solid #000;
+    gap: 33%;
+    border-bottom: 0.07vw solid #000;
     background-image: url("../imagens/group-2351896_1280.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
-    
+    height: 35vw;
 }
 
-.inicio-mobile{
+.inicio-mobile {
     display: none;
-
 }
 
-
-.inicio-text{
+.inicio-text {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 45%;
     height: 100%;
     text-align: justify;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
-.inicio-image{
-    
+.inicio-image {
     width: 100%;
     height: auto;
-
 }
-
-
 
 .text-perguntas {
     display: flex;
@@ -131,102 +121,93 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    
-
     width: 80%;
-    max-width: 600px; /* Limita a largura máxima para melhor leitura */
+    max-width: 50%; /* Limita a largura máxima para melhor leitura */
     margin: 40px auto; /* Centraliza na tela */
-    padding: 20px;
-
+    padding: 1%;
     background-color: #f9f9f9; /* Fundo suave */
     color: #333; /* Tom de preto mais suave para leitura */
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 1%; /* Bordas arredondadas */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
-
-
-/* ---------------------- INTERVENCOES ------------------------ */
-
-.intervencoes{
+.intervencoes {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: 70px;
-    margin-left: 15%;
-    
+    padding: 4.8%;
+    gap: 10%;
 }
 
-#sobre-mim{
+#sobre-mim {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-
 
 #livro {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    height: 100vh;           
+    height: 100vh;
     width: 100%;
     margin-top: 10%;
-    margin-bottom: 10%; 
-    gap: 50px;
+    margin-bottom: 10%;
+    gap: 3.5%;
+}
 
+#livro a {
+    text-decoration: none;
+    padding: 3%;
+    border: 0.07vw black solid;
+    border-radius: 10%;
+    color: darkblue;
+    
     
 }
-#livro a{
-    text-decoration: none;
-    border: 1px solid #000000;
-    padding: 20px;
-    border-radius: 10px;
-    color: darkblue;
-   
-}
-#livro img{
-    border-radius: 30px;
-}
-.sinopse{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    text-align: justify;
+
+#livro img {
+    border-radius: 5%;
 }
 
-.informacoes a{
-    text-decoration: none;
-    color: #000;
+.sinopse {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    padding: 20px;
-    border: 1px black solid;
+    width: 20.8%;
+    text-align: justify;
+    
+}
+
+.informacoes a {
+    text-decoration: none;
+    color: darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 13.9%;
+    padding: 1.4%;
+    border: 0.07vw black solid;
     border-radius: 10%;
-    margin-left: 60%;
+    margin-left: 43%;
+    
 }
 
 .hamburger {
     display: none;
-    font-size: 36px;
+    font-size: 2.5vw;
     background: none;
     border: none;
     color: white;
     cursor: pointer;
-    margin: 0 20px;
+    margin: 0 1.4%;
 }
 
-
-    
-
-    
 
  /* ---------------------- RESPONSIVIDADE ------------------------ */
 
@@ -342,16 +323,29 @@
         font-size: xx-large;
     }
 
-    .informacoes {
-        font-size: x-large;
-        margin-left: 60%;
-    }
+.informacoes a{
+    font-size: x-large;
+    margin-left: 90%;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content; /* ou algo como 30% */
+    padding: 1%;
+    border: 0.07vw black solid;
+    border-radius: 10%;
+    white-space: normal; /* permite quebra só onde necessário */
+    text-align: center;
+    width: 50%;
+}
+
  
 
     #sobre-mim{
         width: 200%;
         height: auto;
         margin: 14%;
+        margin-left: 30%;
     }
 
     #livro {
@@ -362,10 +356,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-left: 10%;
+        margin-top: 50%
     }
     #livro p {
         font-size: 30px;
         text-align: justify;
+        margin-top: 10%;
     }
 
 
@@ -378,10 +375,22 @@
         
     }
     
-    .text-perguntas {
-        width: 110%;
-        font-size: xx-large;
-        margin: 45%;
-    }
+.text-perguntas {
+    width: 80%;             /* aumenta a largura da caixa */
+    max-width: 80%;         /* evita ultrapassar o container */
+    margin: 5% auto;        /* centraliza no meio da tela */
+    padding: 2%;            /* espaçamento interno */
+    font-size: 1.2rem;      /* texto proporcional e legível */
+    text-align: left;
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+
+
+
 }
 
